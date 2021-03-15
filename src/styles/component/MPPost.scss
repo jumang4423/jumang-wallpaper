@@ -1,0 +1,150 @@
+.MPPost {
+    width: 100%;
+    // margin: 0 5vw;
+    padding: 70px 70px;
+    box-sizing: border-box;
+
+    * {
+        word-break: break-all;
+    }
+    a {
+        color: #2b6abb !important;
+        transition: background 0.3s ease 0s !important;
+        border-radius: 8px !important;
+        font-size: 16px !important;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
+    
+    a:hover {
+        background: #DDDDDD !important;
+        text-decoration: inherit;
+    
+    }
+
+    pre code {
+        display: block;
+        background: #f8f8f800 !important;
+        color: #cccccc;
+        font-size: 17px !important;
+    }
+    
+    h2 {
+        font-size: 23px !important;
+    }
+    
+    h3 {
+        font-size: 21px !important;
+    }
+}
+
+
+
+// img {
+//     animation: scroll 10s linear infinite;
+//     display: flex !important;
+//     margin-left: auto!important ;
+//     margin-right: auto !important;
+//     width: 100%;
+//     height: 150px;
+//     border-radius: 48px;
+//     opacity: 0.8;
+// }
+
+/*background color*/
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+}
+
+/*selection color*/
+.hljs::selection,
+.hljs span::selection {
+    background: #373b41;
+}
+
+.hljs::-moz-selection,
+.hljs span::-moz-selection {
+    background: #373b41;
+}
+
+/*foreground color*/
+.hljs {
+    color: #c5c8c6;
+}
+
+/*color: fg_yellow*/
+.hljs-title,
+.hljs-name {
+    color: #f0c674;
+}
+
+/*color: fg_comment*/
+.hljs-comment,
+.hljs-meta,
+.hljs-meta .hljs-keyword {
+    color: #707880;
+}
+
+/*color: fg_red*/
+.hljs-number,
+.hljs-symbol,
+.hljs-literal,
+.hljs-deletion,
+.hljs-link {
+    color: #cc6666;
+}
+
+/*color: fg_green*/
+.hljs-string,
+.hljs-doctag,
+.hljs-addition,
+.hljs-regexp,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+    color: #b5bd68;
+}
+
+/*color: fg_purple*/
+.hljs-attribute,
+.hljs-code,
+.hljs-selector-id {
+    color: #b294bb;
+}
+
+/*color: fg_blue*/
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-bullet,
+.hljs-tag {
+    color: #81a2be;
+}
+
+/*color: fg_aqua*/
+.hljs-subst,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+    color: #8abeb7;
+}
+
+/*color: fg_orange*/
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-quote,
+.hljs-section,
+.hljs-selector-class {
+    color: #de935f;
+}
+
+.hljs-emphasis {
+    font-style: italic;
+}
+
+.hljs-strong {
+    font-weight: bold;
+}

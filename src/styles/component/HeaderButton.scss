@@ -1,0 +1,24 @@
+.ButtonText1 {
+    height: 27px;
+    left: 0%;
+    right: 0%;
+    top: -4px;
+
+    font-family: FCODE;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    /* identical to box height, or 208% */
+
+    text-align: center;
+
+    color: #333333;
+}
+
+.menu-item {
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 0 8px;
+    box-sizing: border-box;
+}

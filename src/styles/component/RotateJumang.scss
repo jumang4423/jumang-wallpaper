@@ -1,0 +1,29 @@
+canvas {
+  position: fixed !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  filter: blur(0px);
+  opacity: 0;
+  animation-name: fadein-bottom;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-delay: 250ms;
+}
+
+@keyframes fadein-bottom {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+div#container {
+  position: fixed !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  top: 0;
+  z-index: -1;
+}
