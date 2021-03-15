@@ -1,7 +1,7 @@
 {
-  "name": "jumang-potaru",
+  "name": "jumang-wallpaper",
   "private": true,
-  "description": "jumang potaru, a jumang portfolio site using react.js",
+  "description": "jumang wallpaper",
   "version": "0.2.0",
   "author": "jumang",
   "dependencies": {

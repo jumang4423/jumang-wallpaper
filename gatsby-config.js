@@ -4,10 +4,10 @@ require("dotenv").config({
 const path = require("path");
 
 module.exports = {
-  pathPrefix: "/jumang-potaru",
+  pathPrefix: "/jumang-wallpaper",
   siteMetadata: {
-    title: `jumang potaru`,
-    description: `generic cringe portfolio site`,
+    title: `jumang wallpaper`,
+    description: `generic cringe wallpaper site`,
     author: `jumang`,
     siteURL: "/",
   },
@@ -59,27 +59,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `jumang potaru`,
-        short_name: `jumang-potaru`,
+        name: `jumang wallpaper`,
+        short_name: `jumang-wallpaper`,
         start_url: `/`,
         background_color: `#FFFFFF`,
         theme_color: `#FFFFFF`,
         display: `standalone`,
         icon: `static/icon.png`, // This path is relative to the root of the site.
-      },
-    },
-    `gatsby-plugin-offline`,
-    {
-      resolve: "gatsby-source-microcms",
-      options: {
-        apiKey: process.env.X_API_KEY,
-        serviceId: 'jumang',
-        apis: [{
-          endpoint: 'potaru-cms',
-          query: {
-            limit: 100,
-          },
-        }],
       },
     },
   ],

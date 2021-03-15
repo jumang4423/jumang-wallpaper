@@ -5,6 +5,6 @@ import SEO from "@/layouts/seo"
 export default () => (
     <>
         <Layout />
-        <SEO title="jumang potaru" />
+        <SEO title="jumang wallpaper" />
     </>
 )

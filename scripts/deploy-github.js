@@ -5,7 +5,7 @@ ghpages.publish(
   'public',
   {
     branch: 'gh-pages',
-    repo: 'https://github.com/jumang4423/jumang-potaru.git',
+    repo: 'https://github.com/jumang4423/jumang-wallpaper.git',
   },
   () => {
     console.log('Deploy Complete!')
